@@ -27,4 +27,13 @@ int main() {
     
     s1.display();
     s2.display();
+
+    
+    s1.marks = 80;
+
+    cout << "After Changing s1.marks to 80" << endl;
+    s1.display();
+    s2.display();
+
+    return 0;
 }
